@@ -1,0 +1,23 @@
+.container{
+    width: 30vw;
+    margin: auto;
+    background-color: rgb(222, 183, 183);
+    height: 25vh;
+    /* justify-items: center; */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* gap: 25px; */
+}
+.res{
+    margin:20px;
+}
+button{
+    width: 70px;
+    height: 27px;
+    border-radius: 8px;
+    background-color: red;
+    margin-left: 20px;
+    border: none;
+    box-shadow: 0 0 5px red,0 0 10px rgb(236, 231, 231);
+}
