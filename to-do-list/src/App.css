@@ -1,0 +1,101 @@
+.main-page{
+  min-height: 100vh;
+  background-color: rgb(215, 230, 247);
+}
+.container{
+  width: 100vw;
+  background-color: rgb(148, 189, 205);
+  height: 7rem;
+  margin: auto;
+  padding:2rem ;
+}
+.taskForm{
+  margin: auto;
+}
+.textArea{
+  height: 3rem;
+  width: 19rem;
+  margin-left: 27.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  outline: 0;
+  font-size: 1rem;
+
+}
+
+.addTask{
+  margin-left: 1rem;
+border: none;
+border-radius: 0.09rem;
+height: 3rem;
+width: 3rem;
+}
+.listt{
+  padding: 1rem;
+}
+.listt ul{
+  column-count: 4;
+  column-gap: 1rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  column-fill: auto;
+  height: 95vh;
+  overflow-y:hidden ;
+  /* max-height: fit-content; */
+  /* width: 80vw; */
+}
+.listt ul li{
+  list-style-type: none;
+  display: inline-block; /* needed so they flow in columns */
+  width: 100%;
+  margin: 0 0 16px;
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 0.5rem;
+  background-color: aliceblue;
+  line-height: 1.6rem;
+  transition: transform 0.1s ease,box-shadow 0.5s ease;
+  position: relative;
+ 
+}
+.listt ul li:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 10px blue;
+}
+.listt ul li span{
+  min-width: 0;
+}
+.listt ul li button{
+  position: absolute;
+  top: 0.3rem;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgb(68, 156, 211);
+  left: 18.2rem;
+  border-radius: 0.2rem;
+  opacity: 0;
+  transition: opacity 0s ease;
+}
+.listt ul li:hover button{
+opacity: 1;
+}
+*{
+  font-family: sans-serif;
+}
+
+@media (min-width: 780px) and (max-width:2200px){
+  .textArea{
+    margin: auto;
+  }
+}
+@media (max-width:780px){
+  .textArea{
+    margin: auto;
+    width: 12rem;
+  }
+}
