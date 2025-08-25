@@ -100,9 +100,8 @@ opacity: 1;
    right: 0.1rem;
   }
 }
-/* @media (max-width:780px){
-  .textArea{
-    margin: auto;
-    width: 12rem;
-  }
-} */
+/* @media (min-width:2000px){
+  .listt ul li button img{
+    /* width: 50; */
+  /* } */
+/* } */ 
