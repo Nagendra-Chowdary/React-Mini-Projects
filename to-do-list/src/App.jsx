@@ -3,7 +3,7 @@ import deleteIcon from './delete-1-svgrepo-com.svg'
 import addIcon from './add-svgrepo-com (1).svg'
 import "./App.css";
 
-function App() {d} alt="X" width={20} height
+function App() {
   const [taskList, setList] = useState([]);
   const [task, setTask] = useState("");
 
