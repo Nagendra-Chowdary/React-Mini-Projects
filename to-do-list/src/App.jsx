@@ -1,7 +1,9 @@
 import { useState } from "react";
+import deleteIcon from './delete-1-svgrepo-com.svg'
+import addIcon from './add-svgrepo-com (1).svg'
 import "./App.css";
 
-function App() {
+function App() {d} alt="X" width={20} height
   const [taskList, setList] = useState([]);
   const [task, setTask] = useState("");
 
@@ -37,7 +39,7 @@ function App() {
             value={task}
           />
           <button type="submit" className="addTask">
-            <img alt="+" src="./add-svgrepo-com (1).svg"
+            <img alt="+" src={addIcon}
             width={23}
             height={23} 
              />        
@@ -51,7 +53,7 @@ function App() {
                 <li key={ind}>
                   <span>{ele}</span>
                   <button onClick={() => removeTask(ind)}>
-                    <img src="./delete-1-svgrepo-com.svg" alt="X" width={20} height={20}/>
+                    <img src={deleteIcon} alt="X" width={20} height={20}/>
                   </button>
                 </li>
               );
