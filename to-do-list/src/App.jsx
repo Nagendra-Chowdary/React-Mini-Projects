@@ -37,8 +37,11 @@ function App() {
             value={task}
           />
           <button type="submit" className="addTask">
-            +
-          </button>
+            <img alt="+" src="../public/add-svgrepo-com (1).svg"
+            width={23}
+            height={23} 
+             />        
+               </button>
         </form>
             </div>
         <div className="listt">
@@ -47,7 +50,9 @@ function App() {
               return (
                 <li key={ind}>
                   <span>{ele}</span>
-                  <button onClick={() => removeTask(ind)}>X</button>
+                  <button onClick={() => removeTask(ind)}>
+                    <img src="../public/delete-1-svgrepo-com.svg" alt="X" width={20} height={20}/>
+                  </button>
                 </li>
               );
             })}

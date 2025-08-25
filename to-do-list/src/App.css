@@ -96,6 +96,9 @@ opacity: 1;
   .textArea{
     margin-left:25rem ;
   }
+  .listt ul li button{
+   right: 0.1rem;
+  }
 }
 /* @media (max-width:780px){
   .textArea{
