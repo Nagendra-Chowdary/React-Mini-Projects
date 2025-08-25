@@ -37,7 +37,7 @@ function App() {
             value={task}
           />
           <button type="submit" className="addTask">
-            <img alt="+" src="/add-svgrepo-com (1).svg"
+            <img alt="+" src="./add-svgrepo-com (1).svg"
             width={23}
             height={23} 
              />        
@@ -51,7 +51,7 @@ function App() {
                 <li key={ind}>
                   <span>{ele}</span>
                   <button onClick={() => removeTask(ind)}>
-                    <img src="/delete-1-svgrepo-com.svg" alt="X" width={20} height={20}/>
+                    <img src="./delete-1-svgrepo-com.svg" alt="X" width={20} height={20}/>
                   </button>
                 </li>
               );
