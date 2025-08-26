@@ -8,3 +8,4 @@ Feel free to explore, learn, and build on top of these projects! 🚀
 
 - **Lottery App** – A simple app with a button that generates a random number. If the number is greater than 3, you win! Built using promises and state to update the UI.
 
+- **To-Do List App** – A task manager where you can add and delete tasks. Tasks are displayed in a grid of note-like boxes, inspired by Google Keep’s layout.
